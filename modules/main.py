@@ -311,46 +311,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f"""
-╭──────.★..─╮
-{str(count).zfill(3)}
-╰─..★.──────╯
-
-📝 Title: {name1}
-├── Extension : @{user}.mkv
-├── Resolution : [{res}]
-
-<pre><code>📚 Batch Name: {b_name}</code></pre>
-
-📥 Extracted By :
-╭──────────.🌺..─╮
-
-      {CR}
-
-╰─..🌺.──────────╯
-
-<pre><code>━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━</code></pre>
-"""
-                cc1 = f"""
-╭──────.★..─╮
-{str(count).zfill(3)}
-╰─..★.──────╯
-
-📝 Title: {name1}
-├── Extension : @{user}.pdf
-├── Resolution : [None]
-
-<pre><code>📚 Batch Name: {b_name}</code></pre>
-
-📥 Extracted By :
-╭──────────.🌺..─╮
-
-      {CR}
-
-╰─..🌺.──────────╯
-
-<pre><code>━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━</code></pre>
-"""
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝗦𝗨𝗠𝗜𝗧🌺✦━━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝗦𝗨𝗠𝗜𝗧🌺✦━━━━━━**'
                     
                 
                 if "drive" in url:
@@ -583,46 +545,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
         
-                cc = f"""
-╭──────.★..─╮
-{str(count).zfill(3)}
-╰─..★.──────╯
-
-📝 Title: {name1}
-├── Extension : @{user}.mkv
-├── Resolution : [{res}]
-
-<pre><code>📚 Batch Name: {b_name}</code></pre>
-
-📥 Extracted By :
-╭──────────.🌺..─╮
-
-      {CR}
-
-╰─..🌺.──────────╯
-
-<pre><code>━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━</code></pre>
-"""
-                cc1 = f"""
-╭──────.★..─╮
-{str(count).zfill(3)}
-╰─..★.──────╯
-
-📝 Title: {name1}
-├── Extension : @{user}.pdf
-├── Resolution : [None]
-
-<pre><code>📚 Batch Name: {b_name}</code></pre>
-
-📥 Extracted By :
-╭──────────.🌺..─╮
-
-      {CR}
-
-╰─..🌺.──────────╯
-
-<pre><code>━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━</code></pre>
-"""
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝗦𝗨𝗠𝗜𝗧🌺✦━━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝗦𝗨𝗠𝗜𝗧🌺✦━━━━━━**'
                     
                 
                 if "drive" in url:
