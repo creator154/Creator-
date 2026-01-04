@@ -391,7 +391,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("𝐀𝐋𝐋 𝐃𝐎𝐍𝐄 ✅ 𝐓𝐈𝐋𝐋 𝐍𝐎𝐖 ")
+    await m.reply_text("𝗔𝗟𝗟 𝗜𝗦 𝗗𝗢𝗡𝗘 𝗡𝗢𝗪 ✅ 𝗔𝗕 𝗥𝗘𝗔𝗖𝗧𝗜𝗢𝗡 𝗞𝗜 𝗕𝗔𝗥𝗜... ")
 
 # Advance
 
@@ -625,7 +625,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("𝐀𝐋𝐋 𝐃𝐎𝐍𝐄 ✅ 𝐓𝐈𝐋𝐋 𝐍𝐎𝐖 ")
+    await m.reply_text("𝗔𝗟𝗟 𝗜𝗦 𝗗𝗢𝗡𝗘 𝗡𝗢𝗪 ✅ 𝗔𝗕 𝗥𝗘𝗔𝗖𝗧𝗜𝗢𝗡 𝗞𝗜 𝗕𝗔𝗥𝗜... ")
 
 
 
