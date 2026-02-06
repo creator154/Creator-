@@ -311,8 +311,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'🏷️ Iɴᴅᴇx ID : {str(count).zfill(3)}\n\n📝 Title: {name1} \n├── Extention : @Sumit_Zx.mkv\n├── Resolution : [{res}]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By :\n╭──────────.🌺..─╮\n\n      {CR}\n\n╰─..🌺.──────────╯\n\n<pre><code>━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━</code></pre>'
-                cc1 = f'🏷️ Iɴᴅᴇx ID : {str(count).zfill(3)}\n\n📝 Title: {name1} \n├── Extention : @Sumit_Zx.pdf\n├── Resolution : [None]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By :\n╭──────────.🌺..─╮\n\n      {CR}\n\n╰─..🌺.──────────╯\n\n<pre><code>━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━</code></pre>'
+                cc = f'🏷️ Iɴᴅᴇx ID : {str(count).zfill(3)}\n\n📝 Title: {name1} \n├── Extention : @Sumit_Zx.mkv\n├── Resolution : [{res}]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By :\n╭──────────.🌺..─╮\n\n      {CR}\n\n╰─..✨.──────────╯\n\n<pre><code>━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━</code></pre>'
+                cc1 = f'🏷️ Iɴᴅᴇx ID : {str(count).zfill(3)}\n\n📝 Title: {name1} \n├── Extention : @Sumit_Zx.pdf\n├── Resolution : [None]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By :\n╭──────────.🌺..─╮\n\n      {CR}\n\n╰─..✨.──────────╯\n\n<pre><code>━━━━━✦𝗦𝗨𝗠𝗜𝗧❤️✦━━━━━</code></pre>'
                     
                 
                 if "drive" in url:
